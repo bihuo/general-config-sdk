@@ -1,0 +1,30 @@
+{
+    "name": "bihuo/general-config-sdk",
+    "description": "通用配置sdk:一个配置中心，可获取不同项目的配置",
+    "type": "library",
+    "require": {
+        "php": ">=5.6",
+        "hanson/foundation-sdk": "^2.0",
+        "catfan/medoo": "dev-master"
+    },
+    "require-dev": {
+        "php": ">=5.6",
+        "hanson/foundation-sdk": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "ZiXin",
+            "email": "chenmiangeng@linghit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "bihuo\\": "src/"
+        },
+        "files" : [
+            "src/Support/helpers.php"
+        ]
+    }
+}
