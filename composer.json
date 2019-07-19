@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.6",
         "hanson/foundation-sdk": "^2.0",
-        "catfan/medoo": "dev-master"
+        "catfan/medoo": "~1.2.0"
     },
     "require-dev": {
         "php": ">=5.6",
